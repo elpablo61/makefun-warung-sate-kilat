@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Warung Sate Kilat — game masak malam hari</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #1a1210; height: 100%; }
+  body { display: flex; align-items: center; justify-content: center; font-family: "Trebuchet MS", Verdana, sans-serif; }
+  #wrap { width: 1280px; max-width: 100vw; }
+  canvas { display: block; width: 100%; height: auto; image-rendering: pixelated; background: #1a1210; cursor: pointer; }
+  #hint { color: #d8c49a; text-align: center; font-size: 13px; padding: 8px 0; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="1280" height="720"></canvas>
+  <div id="hint">Warung Sate Kilat — klik sate mentah untuk membakar, klik sate matang untuk mengangkat, Q/W/E sisi, Spasi sajikan, R restart.</div>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>

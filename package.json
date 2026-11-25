@@ -1,0 +1,1 @@
+{"description":"Warung Sate Kilat — a night satay-stall cooking game for make.fun best-cooking-game-20261125-0137","license":"MIT","name":"makefun-warung-sate-kilat","private":true,"scripts":{"handin":"node main.ts","start":"node serve.ts"},"type":"module","version":"1.0.0"}
